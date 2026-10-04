@@ -1,0 +1,19 @@
+{
+  "name": "foodmap",
+  "private": true,
+  "type": "module",
+  "workspaces": ["core", "web", "pipeline"],
+  "scripts": {
+    "dev": "npm run dev -w web",
+    "build": "npm run build -w web",
+    "build:mockup": "npm run build:mockup -w web && node scripts/to-artifact.mjs",
+    "test": "vitest run",
+    "typecheck": "tsc -p core && tsc -p web && tsc -p pipeline",
+    "check": "npm run typecheck && npm test",
+    "enrich:sample": "npm run enrich:sample -w pipeline"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.3"
+  }
+}

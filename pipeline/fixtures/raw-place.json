@@ -1,0 +1,17 @@
+{
+  "sourceId": "fixture-1",
+  "source": "fixture",
+  "name": "阿蓮麵館",
+  "address": "新竹市東區建中路",
+  "location": { "lat": 24.7962, "lng": 120.9881 },
+  "rating": 4.3,
+  "reviewCount": 420,
+  "priceLevel": 1,
+  "hours": [{ "days": [1, 2, 3, 4, 5, 6], "open": "11:00", "close": "20:00" }],
+  "menuText": "招牌乾麵 50\n麻醬麵 55\n素炸醬麵 60 (全素)\n紅油抄手 70\n餛飩湯 50\n燙青菜 35 (淋肉燥)",
+  "reviews": [
+    { "rating": 5, "text": "麻醬麵很香，加辣油更好吃。素炸醬麵是全素的，老闆說沒有放蔥蒜。", "when": "2 weeks ago" },
+    { "rating": 4, "text": "紅油抄手很辣但很過癮，餛飩湯清淡。燙青菜有淋肉燥，吃素要說。", "when": "1 month ago" },
+    { "rating": 4, "text": "便宜大碗，午餐時間要排隊。麻醬麵推薦。", "when": "3 months ago" }
+  ]
+}
